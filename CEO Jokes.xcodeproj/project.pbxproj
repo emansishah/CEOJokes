@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B118F8B31C7FA0730015F387 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118F8B21C7FA0730015F387 /* ProductViewController.swift */; };
+		B1ABDE391C7E4A5F009A173C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABDE381C7E4A5F009A173C /* TableViewController.swift */; };
+		B1ABDE3B1C7E6936009A173C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABDE3A1C7E6936009A173C /* TableViewCell.swift */; };
 		B1C9C4D51C7D4D160040F8CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9C4D41C7D4D160040F8CE /* AppDelegate.swift */; };
 		B1C9C4D71C7D4D160040F8CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9C4D61C7D4D160040F8CE /* ViewController.swift */; };
 		B1C9C4DA1C7D4D160040F8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C9C4D81C7D4D160040F8CE /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		B1C9C4DF1C7D4D160040F8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C9C4DD1C7D4D160040F8CE /* LaunchScreen.storyboard */; };
 		B1C9C4EA1C7D4D160040F8CE /* CEO_JokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9C4E91C7D4D160040F8CE /* CEO_JokesTests.swift */; };
 		B1C9C4F51C7D4D160040F8CE /* CEO_JokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9C4F41C7D4D160040F8CE /* CEO_JokesUITests.swift */; };
+		B1C9C5031C7D4D790040F8CE /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9C5021C7D4D790040F8CE /* CollectionViewController.swift */; };
+		B1C9C5051C7D4DCD0040F8CE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9C5041C7D4DCD0040F8CE /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B118F8B21C7FA0730015F387 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		B1ABDE381C7E4A5F009A173C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B1ABDE3A1C7E6936009A173C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B1C9C4D11C7D4D160040F8CE /* CEO Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CEO Jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C9C4D41C7D4D160040F8CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1C9C4D61C7D4D160040F8CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		B1C9C4F01C7D4D160040F8CE /* CEO JokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CEO JokesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C9C4F41C7D4D160040F8CE /* CEO_JokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEO_JokesUITests.swift; sourceTree = "<group>"; };
 		B1C9C4F61C7D4D160040F8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C9C5021C7D4D790040F8CE /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B1C9C5041C7D4DCD0040F8CE /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				B1C9C4D41C7D4D160040F8CE /* AppDelegate.swift */,
 				B1C9C4D61C7D4D160040F8CE /* ViewController.swift */,
 				B1C9C4D81C7D4D160040F8CE /* Main.storyboard */,
+				B118F8B21C7FA0730015F387 /* ProductViewController.swift */,
+				B1ABDE3A1C7E6936009A173C /* TableViewCell.swift */,
+				B1ABDE381C7E4A5F009A173C /* TableViewController.swift */,
+				B1C9C5041C7D4DCD0040F8CE /* CollectionViewCell.swift */,
+				B1C9C5021C7D4D790040F8CE /* CollectionViewController.swift */,
 				B1C9C4DB1C7D4D160040F8CE /* Assets.xcassets */,
 				B1C9C4DD1C7D4D160040F8CE /* LaunchScreen.storyboard */,
 				B1C9C4E01C7D4D160040F8CE /* Info.plist */,
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C9C5031C7D4D790040F8CE /* CollectionViewController.swift in Sources */,
 				B1C9C4D71C7D4D160040F8CE /* ViewController.swift in Sources */,
+				B1C9C5051C7D4DCD0040F8CE /* CollectionViewCell.swift in Sources */,
+				B118F8B31C7FA0730015F387 /* ProductViewController.swift in Sources */,
+				B1ABDE3B1C7E6936009A173C /* TableViewCell.swift in Sources */,
+				B1ABDE391C7E4A5F009A173C /* TableViewController.swift in Sources */,
 				B1C9C4D51C7D4D160040F8CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +507,7 @@
 				B1C9C4FB1C7D4D160040F8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1C9C4FC1C7D4D160040F8CE /* Build configuration list for PBXNativeTarget "CEO JokesTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +516,7 @@
 				B1C9C4FE1C7D4D160040F8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1C9C4FF1C7D4D160040F8CE /* Build configuration list for PBXNativeTarget "CEO JokesUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +525,7 @@
 				B1C9C5011C7D4D160040F8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
